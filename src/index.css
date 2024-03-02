@@ -1,0 +1,38 @@
+
+.app-container{
+  height: 90vh;
+  width: 99vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app-container .input-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+  textarea{
+    width: 40rem;
+    height: 10rem;
+  }
+
+  .app-container .input-container .save-btn{
+    background-color: rgb(41, 168, 41);
+    width: 5rem;
+    border: 1px solid;
+    border-radius: 4px;
+    height: 2rem;
+    cursor: pointer;
+    color: white;
+  } 
+
+  .app-container .input-container .saving{
+    background-color: gray;
+    pointer-events: none;
+  }
+
